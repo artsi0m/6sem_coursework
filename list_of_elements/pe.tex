@@ -1,0 +1,73 @@
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End: 
+\documentclass{xesel}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[AutoFakeSlant=0.25,AutoFakeBold=0.2,Scale=0.85]{opengosta.otf}
+\begin{document}
+\XeselDesignedBy{Корякин А.Л. }
+\XeselCheckedBy{Джанибеков Х.Ш. }
+\XeselDocumentNumber{ГУИР.467993.013 ПЭ3}
+% Придётся схему переделать ещё раз,
+% потому что в Altium элементы могут быть расставлены в другом порядке
+\XeselDocumentName{Система тестирования сервоприводов квадрокоптера}
+\begin{xesel}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Зуммеры}
+  \XeselEntry{BUZ1}{Пьезо зуммер с осцилятором\, диаметр 12 мм\,
+    шагом  6.6 мм или 7.5 мм}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Конденсаторы}
+  \XeselEntry{C1}{THT 35\,В 100\,мкФ}{1}{}
+  \XeselEntry{C2}{THT 16\,В 10\,мкФ}{1}{}
+  % Поменял здесь многие компоненты по расположению,
+  % они не связаны с оригинальной схемой
+  \XeselEntry{C3...С5}{THT 100\,нФ}{3}{}
+  \XeselEntry{C6, C7}{THT 22\,пФ}{2}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Диоды}
+  \XeselEntry{D1}{THT 1N5817}{1}{ Диод Шоттки}
+  \XeselEntry{D2}{THT LM385Z-2.5\, TO-92}{1}{}
+  \XeselEntry{D3}{THT BZX79-C5V1}{1}{ Диод Зенера}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Микросхемы}
+  \XeselEntry{IC1}{TO220 7805}{1}{}
+  \XeselEntry{IC2}{ATmega328P}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Разъёмы штырьевые и блоки клемные}
+  \XeselEntry{K1, K2}{THT Разъём штырьевой\, двухрядный\,
+    12 позиционный\, с шагом 2.54 мм}{2}{}
+  \XeselEntry{K3}{THT Разъём штырьевой\, двухрядный\,
+    6 позиционный\, с шагом 2.54 мм}{1}{}
+  \XeselEntry{K4}{THT Разъём штырьевой\,
+    4 позиционный\, с шагом 2.54 мм}{1}{}
+  \XeselEntry{K5}{THT Разъём питания коаксильный}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Светодиоды}
+  \XeselEntry{LED1}{Cветодиод\, 3мм\, красный }{}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Потенциометры}
+  \XeselEntry{P1...P4}{THT Потенциометр\, 10 кОм\, 0.25 Вт}{4}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Резисторы}
+  \XeselEntry{R1, R2}{THT Резистор\, 1 кОм\, 0.25 Вт}{2}{}
+  \XeselEntry{R3...R9}{THT Резистор\, 10 кОм\, 0.25 Вт}{7}{}
+  \XeselEntry{R10}{THT Резистор\, 22 Ом\, 0.25 Вт}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Переключатели ползунковые}
+  \XeselEntry{S1}{Переключатель ползунковый  DPDT MFS201N-16-Z}{1}{}
+  \XeselEntry{S2}{Переключатель ползунковый SPDT OS102011MA1}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Транзисторы}
+  \XeselEntry{T1}{Транзистор 2N7000\, в корпусе TO-92}{1}{}
+  \XeselEntry{}{}{}{}
+  \XeselHeader{Резонаторы кварцевые}
+  \XeselEntry{X1}{HC-49S 16Мгц}{1}{}
+  \XeselEntry{}{}{}{}
+\end{xesel}
+\end{document}
