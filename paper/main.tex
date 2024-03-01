@@ -1,0 +1,85 @@
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+
+% main.tex файл который компилируется и подключает за собой остальный
+% файлы с содержимым через input
+% При этом согласно моей же логике преамбула должна отстаться здесь.
+
+% Используем опцию emptystyle т.к. bsuir-std расширяет eskdxtext,
+% который без этой опции сделает рамку для чертежа даже на документе
+% с просто текстом.
+\documentclass[a4paper,emptystyle]{bsuir-std}
+
+
+\usepackage[sorting=none,backend=biber]{biblatex}
+% библиогорафия в last
+\usepackage{url}
+
+
+
+
+
+\addbibresource{Karakin6semCoursework.bib}
+
+\begin{document}
+
+
+
+
+
+% Путь к месту где картинки лежат
+\graphicspath{ {..} }
+
+%%% Титульник
+\input{title}
+
+
+%%% Введение.
+%\input{introduction}
+
+%%% Первая глава
+%%% Общетехнический анализ проектируемо устройства
+
+%%%% Анализ исходных данных
+\input{part_1_1}
+
+%%%% Описание принципа работы анализируемого устройства
+\input{part_1_2}
+
+%%%% Анализ электрической принципиальной схемы устройства
+%\input{part_1_3}
+
+%%%% Определение параметров
+%%%% воздействующих дестабилизирующих факторов и
+%%%% протекающих физических процессов
+
+% Приплести сюда ГОСТ на устройство
+%\input{part_1_4}}
+
+%%% Вторая глава по разделам
+% \input{second_part}
+
+% \input{part_2_1}
+
+% \input{part_2_2}
+
+% \input{part_2_3}
+
+% \input{part_2_4}
+
+% \input{part_2_5}
+
+% \input{part_2_6}
+
+% \input{part_3_1}
+
+% \input{part_3_2}
+
+% \input{last_part}
+%%% Третья глава
+%\input{third_part}
+
+\end{document}
