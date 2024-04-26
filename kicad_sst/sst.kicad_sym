@@ -6,8 +6,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -12.7 36.83 0)
+		(property "Reference" "DD"
+			(at 2.286 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ATmega328-P"
-			(at 2.54 -36.83 0)
+			(at 18.288 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 0 0 0)
+			(at 38.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 0 0 0)
+			(at 38.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
-			(at 0 0 0)
+			(at 38.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,23 +70,110 @@
 				(hide yes)
 			)
 		)
-		(symbol "ATmega328-P_0_1"
-			(rectangle
-				(start -12.7 -35.56)
-				(end 12.7 35.56)
+		(symbol "ATmega328-P_1_1"
+			(polyline
+				(pts
+					(xy 0 106.68) (xy 12.7 106.68)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-		)
-		(symbol "ATmega328-P_1_1"
+			(polyline
+				(pts
+					(xy 12.7 41.91) (xy 0 41.91)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 135.89) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 88.9) (xy 50.8 88.9)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38.1 135.89) (xy 38.1 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 50.8 48.26) (xy 38.1 48.26)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 135.89)
+				(end 50.8 0)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "MCU"
+				(at 24.892 128.27 0)
+				(effects
+					(font
+						(face "KiCad Font")
+						(size 5 5)
+						(color 0 0 0 1)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
-				(length 2.54)
+				(at 55.8 53.34 180)
+				(length 5)
 				(name "~{RESET}/PC6"
 					(effects
 						(font
@@ -103,8 +190,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 12.7 180)
-				(length 2.54)
+				(at 55.8 93.98 180)
+				(length 5)
 				(name "XTAL2/PB7"
 					(effects
 						(font
@@ -121,8 +208,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -25.4 180)
-				(length 2.54)
+				(at 55.8 17.78 180)
+				(length 5)
 				(name "PD5"
 					(effects
 						(font
@@ -139,8 +226,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -27.94 180)
-				(length 2.54)
+				(at 55.8 12.7 180)
+				(length 5)
 				(name "PD6"
 					(effects
 						(font
@@ -157,8 +244,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 2.54)
+				(at 55.8 6.35 180)
+				(length 5)
 				(name "PD7"
 					(effects
 						(font
@@ -175,8 +262,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 30.48 180)
-				(length 2.54)
+				(at 55.88 129.54 180)
+				(length 5)
 				(name "PB0"
 					(effects
 						(font
@@ -193,8 +280,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 27.94 180)
-				(length 2.54)
+				(at 55.88 124.46 180)
+				(length 5)
 				(name "PB1"
 					(effects
 						(font
@@ -211,8 +298,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 25.4 180)
-				(length 2.54)
+				(at 55.8 119.38 180)
+				(length 5)
 				(name "PB2"
 					(effects
 						(font
@@ -229,8 +316,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 22.86 180)
-				(length 2.54)
+				(at 55.8 114.3 180)
+				(length 5)
 				(name "PB3"
 					(effects
 						(font
@@ -247,8 +334,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 20.32 180)
-				(length 2.54)
+				(at 55.8 109.22 180)
+				(length 5)
 				(name "PB4"
 					(effects
 						(font
@@ -265,9 +352,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 17.78 180)
-				(length 2.54)
-				(name "PB5"
+				(at 55.8 104.14 180)
+				(length 5)
+				(name "EPB5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -283,8 +370,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -12.7 180)
-				(length 2.54)
+				(at 55.8 43.18 180)
+				(length 5)
 				(name "PD0"
 					(effects
 						(font
@@ -301,8 +388,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 38.1 270)
-				(length 2.54)
+				(at -5.08 33.02 0)
+				(length 5)
 				(name "AVCC"
 					(effects
 						(font
@@ -319,8 +406,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 30.48 0)
-				(length 2.54)
+				(at -5.08 22.86 0)
+				(length 5)
 				(name "AREF"
 					(effects
 						(font
@@ -337,8 +424,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -38.1 90)
-				(length 2.54) hide
+				(at -5.08 12.7 0)
+				(length 5)
 				(name "GND"
 					(effects
 						(font
@@ -355,8 +442,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 7.62 180)
-				(length 2.54)
+				(at 55.8 83.82 180)
+				(length 5)
 				(name "PC0"
 					(effects
 						(font
@@ -373,8 +460,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 5.08 180)
-				(length 2.54)
+				(at 55.8 78.74 180)
+				(length 5)
 				(name "PC1"
 					(effects
 						(font
@@ -391,8 +478,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 2.54 180)
-				(length 2.54)
+				(at 55.8 73.66 180)
+				(length 5)
 				(name "PC2"
 					(effects
 						(font
@@ -409,8 +496,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 0 180)
-				(length 2.54)
+				(at 55.8 68.58 180)
+				(length 5)
 				(name "PC3"
 					(effects
 						(font
@@ -427,8 +514,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 2.54)
+				(at 55.8 63.5 180)
+				(length 5)
 				(name "PC4"
 					(effects
 						(font
@@ -445,8 +532,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 2.54)
+				(at 55.8 58.42 180)
+				(length 5)
 				(name "PC5"
 					(effects
 						(font
@@ -463,8 +550,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -15.24 180)
-				(length 2.54)
+				(at 55.72 38.1 180)
+				(length 5)
 				(name "PD1"
 					(effects
 						(font
@@ -481,8 +568,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -17.78 180)
-				(length 2.54)
+				(at 55.8 33.02 180)
+				(length 5)
 				(name "PD2"
 					(effects
 						(font
@@ -499,8 +586,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -20.32 180)
-				(length 2.54)
+				(at 55.8 27.94 180)
+				(length 5)
 				(name "PD3"
 					(effects
 						(font
@@ -517,8 +604,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -22.86 180)
-				(length 2.54)
+				(at 55.8 22.86 180)
+				(length 5)
 				(name "PD4"
 					(effects
 						(font
@@ -535,8 +622,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 38.1 270)
-				(length 2.54)
+				(at -5.08 127 0)
+				(length 5)
 				(name "VCC"
 					(effects
 						(font
@@ -553,8 +640,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -38.1 90)
-				(length 2.54)
+				(at -5.08 116.84 0)
+				(length 5)
 				(name "GND"
 					(effects
 						(font
@@ -571,8 +658,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 15.24 180)
-				(length 2.54)
+				(at 55.8 99.06 180)
+				(length 5)
 				(name "XTAL1/PB6"
 					(effects
 						(font
