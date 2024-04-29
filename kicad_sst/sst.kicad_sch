@@ -830,8 +830,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "XS?"
-				(at -1.778 21.844 0)
+			(property "Reference" "X"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -865,48 +865,48 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MISO"
-				(at 0 10.16 0)
+			(property "Description" "1"
+				(at -5.08 10.16 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "PIN2" "VCC"
-				(at -0.762 5.08 0)
+			(property "PIN2" "2"
+				(at -5.08 5.08 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "PIN3" "SCK"
-				(at -1.016 0.254 0)
+			(property "PIN3" "3"
+				(at -5.08 0 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "PIN4" "MOSI"
-				(at -0.508 -5.334 0)
+			(property "PIN4" "4"
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "PIN5" "RST"
-				(at -1.27 -10.16 0)
+			(property "PIN5" "5"
+				(at -5.08 -10.16 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "PIN6" "GND"
-				(at -0.762 -15.24 0)
+			(property "PIN6" "6"
+				(at -5.08 -15.24 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -1068,7 +1068,7 @@
 						)
 					)
 				)
-				(text "ISP"
+				(text "Цепь"
 					(at -5.08 15.24 0)
 					(effects
 						(font
@@ -2331,7 +2331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92"
 				(at 8.89 -11.43 0)
 				(effects
 					(font
@@ -2684,7 +2684,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
 				(at 2.032 14.986 0)
 				(effects
 					(font
@@ -3598,7 +3598,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 				(at 0 4.365 0)
 				(effects
 					(font
@@ -3909,7 +3909,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_THT:LED_D3.0mm"
 				(at 0 -7.6276 0)
 				(effects
 					(font
@@ -4305,7 +4305,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 				(at 7.366 0.508 0)
 				(effects
 					(font
@@ -4418,7 +4418,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 				(at 7.366 0.508 0)
 				(effects
 					(font
@@ -4596,7 +4596,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 				(at 5.334 2.54 0)
 				(effects
 					(font
@@ -4763,7 +4763,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -4900,7 +4900,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -5061,7 +5061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 				(at 4.318 2.54 0)
 				(effects
 					(font
@@ -7730,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
 			(at 71.76 254.762 0)
 			(effects
 				(font
@@ -7997,7 +7997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 			(at 78.74 261.62 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 349.758 164.846 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 85.598 269.88 0)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
 			(at 149.098 276.23 0)
 			(effects
 				(font
@@ -8278,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 178.308 42.992 0)
 			(effects
 				(font
@@ -8348,7 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 348.742 124.714 0)
 			(effects
 				(font
@@ -8486,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 159.258 33.688 0)
 			(effects
 				(font
@@ -8623,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 197.358 33.688 0)
 			(effects
 				(font
@@ -8825,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 272.542 143.764 0)
 			(effects
 				(font
@@ -8963,7 +8963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 384.048 220.726 0)
 			(effects
 				(font
@@ -9098,7 +9098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 			(at 160.02 186.69 0)
 			(effects
 				(font
@@ -9285,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 348.742 146.304 0)
 			(effects
 				(font
@@ -9354,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 			(at 67.31 236.22 0)
 			(effects
 				(font
@@ -9489,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 233.172 143.764 0)
 			(effects
 				(font
@@ -9626,7 +9626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 			(at 342.9 11.43 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 370.84 194.3024 0)
 			(effects
 				(font
@@ -9884,7 +9884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 253.492 143.764 0)
 			(effects
 				(font
@@ -9955,7 +9955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
 			(at 181.356 270.002 0)
 			(effects
 				(font
@@ -10037,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 376.682 174.244 0)
 			(effects
 				(font
@@ -10172,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 303.53 78.74 0)
 			(effects
 				(font
@@ -10190,7 +10190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MISO"
+		(property "Description" "1"
 			(at 318.77 88.9 0)
 			(effects
 				(font
@@ -10198,7 +10198,7 @@
 				)
 			)
 		)
-		(property "PIN2" "VCC"
+		(property "PIN2" "2"
 			(at 319.532 93.98 0)
 			(effects
 				(font
@@ -10206,7 +10206,7 @@
 				)
 			)
 		)
-		(property "PIN3" "SCK"
+		(property "PIN3" "3"
 			(at 319.786 98.806 0)
 			(effects
 				(font
@@ -10214,7 +10214,7 @@
 				)
 			)
 		)
-		(property "PIN4" "MOSI"
+		(property "PIN4" "4"
 			(at 319.278 104.394 0)
 			(effects
 				(font
@@ -10222,7 +10222,7 @@
 				)
 			)
 		)
-		(property "PIN5" "RST"
+		(property "PIN5" "5"
 			(at 320.04 109.22 0)
 			(effects
 				(font
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "PIN6" "GND"
+		(property "PIN6" "6"
 			(at 319.532 114.3 0)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 291.592 143.764 0)
 			(effects
 				(font
@@ -10366,7 +10366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.692 235.204 0)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 			(at 250.19 180.34 0)
 			(effects
 				(font
@@ -10453,7 +10453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1a"
+		(property "Description" "1"
 			(at 265.938 191.008 0)
 			(effects
 				(font
@@ -10461,7 +10461,7 @@
 				)
 			)
 		)
-		(property "PIN2" "2a"
+		(property "PIN2" "2"
 			(at 266.192 195.58 0)
 			(effects
 				(font
@@ -10469,7 +10469,7 @@
 				)
 			)
 		)
-		(property "PIN3" "3a"
+		(property "PIN3" "3"
 			(at 265.938 200.66 0)
 			(effects
 				(font
@@ -10477,7 +10477,7 @@
 				)
 			)
 		)
-		(property "PIN4" "4a"
+		(property "PIN4" "4"
 			(at 266.192 205.74 0)
 			(effects
 				(font
@@ -10485,7 +10485,7 @@
 				)
 			)
 		)
-		(property "PIN5" "1b"
+		(property "PIN5" "5"
 			(at 265.938 211.582 0)
 			(effects
 				(font
@@ -10493,7 +10493,7 @@
 				)
 			)
 		)
-		(property "PIN6" "2b"
+		(property "PIN6" "6"
 			(at 266.192 216.154 0)
 			(effects
 				(font
@@ -10501,7 +10501,7 @@
 				)
 			)
 		)
-		(property "PIN7" "3b"
+		(property "PIN7" "7"
 			(at 266.192 220.98 0)
 			(effects
 				(font
@@ -10509,7 +10509,7 @@
 				)
 			)
 		)
-		(property "PIN8" "4b"
+		(property "PIN8" "8"
 			(at 265.938 226.568 0)
 			(effects
 				(font
@@ -10577,7 +10577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 48.006 235.712 0)
 			(effects
 				(font
@@ -10779,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 392.43 224.79 0)
 			(effects
 				(font
@@ -10866,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
 			(at 68.58 215.9 0)
 			(effects
 				(font
@@ -11135,7 +11135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 132.588 276.23 0)
 			(effects
 				(font
@@ -11684,7 +11684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 393.7 183.896 0)
 			(effects
 				(font
@@ -11955,7 +11955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 45.466 215.392 0)
 			(effects
 				(font
@@ -12025,7 +12025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 215.392 235.204 0)
 			(effects
 				(font
@@ -12169,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 400.605 189.23 0)
 			(effects
 				(font
@@ -12303,7 +12303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 55.88 251.46 0)
 			(effects
 				(font

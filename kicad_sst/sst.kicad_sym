@@ -27,7 +27,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 8.89 -11.43 0)
 			(effects
 				(font
@@ -2001,7 +2001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 7.366 0.508 0)
 			(effects
 				(font
@@ -2114,7 +2114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 7.366 0.508 0)
 			(effects
 				(font
@@ -5067,7 +5067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC18-U_Horizontal"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 4.318 2.54 0)
 			(effects
 				(font
