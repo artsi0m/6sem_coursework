@@ -2562,99 +2562,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 11.43 270)
-					(length 3.81)
-					(name "D1"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-			)
-			(symbol "2П7240_2_1"
-				(pin passive line
-					(at 3.81 -7.62 90)
-					(length 3.81)
-					(name "S2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
 					(number "3"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -2.54 0)
-					(length 3.81)
-					(name "G2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 8.89 270)
-					(length 3.81)
-					(name "D2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 8.89 270)
-					(length 3.81)
-					(name "D2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 2.0066 2.0066)
@@ -2665,6 +2573,7 @@
 			)
 		)
 		(symbol "sst:4П2Н"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2787,24 +2696,6 @@
 			)
 			(symbol "4П2Н_1_1"
 				(pin power_in line
-					(at -2.54 11.43 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 -5.08 90)
 					(length 5.08)
 					(name ""
@@ -2814,43 +2705,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 11.43 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 11.43 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2868,7 +2723,61 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 11.43 270)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 11.43 270)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 11.43 270)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2886,7 +2795,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9982,22 +9891,22 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "c967ae4f-fbe5-40bd-b4df-ddeaee7a5a2b")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "3f995c11-e86c-42ff-aab2-daa2506ff437")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "ec6d9a7b-4b2d-4a44-bb64-0ff108779d7d")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "38a99549-eef9-47e4-95a9-60a0b6174d23")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "aa827853-dfcc-4e0b-b733-12455aea31d7")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "8479195b-d231-453f-8d91-5a612ec8d6d9")
 		)
 		(instances
@@ -10809,26 +10718,11 @@
 		(pin "3"
 			(uuid "ce1f928d-ed28-4ff3-84db-50c92b2ccc13")
 		)
-		(pin "6"
-			(uuid "e5530988-a29f-45d4-af3f-cf9c312d66f9")
-		)
-		(pin "8"
-			(uuid "e69eea7e-7bce-4a21-a37a-032c9cb7eae7")
-		)
 		(pin "2"
 			(uuid "b28246e1-b2a0-44b9-aa43-8afa7d0c5c8d")
 		)
 		(pin "1"
 			(uuid "eec280e9-7714-4f76-a344-f9cd021d3c7d")
-		)
-		(pin "4"
-			(uuid "b192d3e8-353e-4813-9a8f-bb1764d586f0")
-		)
-		(pin "5"
-			(uuid "1c6c7409-7af9-47f7-8d3e-acbbb90bcb53")
-		)
-		(pin "7"
-			(uuid "1790605a-26e7-43e4-afdb-459319122b71")
 		)
 		(instances
 			(project "sst"
