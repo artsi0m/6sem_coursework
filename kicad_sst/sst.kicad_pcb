@@ -8488,6 +8488,7 @@
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_TT_P0915N"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3aaab6ec-2625-4738-925f-9e3e72bcdcc7")
 		(at 114.5 103.5 180)
@@ -9463,6 +9464,7 @@
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_TT_P0915N"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5ef1c7f1-88ad-41a0-aaf4-0584e09818fd")
 		(at 99.5 103.5 180)
@@ -11549,6 +11551,7 @@
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_TT_P0915N"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "75ee9b9d-d9e0-4835-9386-a0c326ec0666")
 		(at 144.5 103.5 180)
@@ -12563,6 +12566,7 @@
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_TT_P0915N"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a249b0f7-dc29-4e45-9f7b-7e980938c9e2")
 		(at 129.5 103.5 180)
