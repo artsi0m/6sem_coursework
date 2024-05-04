@@ -10721,6 +10721,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/step_models/RAPC10U.step"
+			(offset
+				(xyz 0 0 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -180 90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 		(layer "F.Cu")
