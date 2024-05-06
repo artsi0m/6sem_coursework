@@ -2373,28 +2373,6 @@
 			(pintype "passive")
 			(uuid "24c794ad-8e19-4aa9-b4ec-fdc2a95fa209")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/step_models/P0915N-FC15AR50K.stp"
-			(offset
-				(xyz 2.5 7.5 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_TT_P0915N"
 		(locked yes)
@@ -2803,28 +2781,6 @@
 			(net 2 "+2V5")
 			(pintype "passive")
 			(uuid "fdc79353-2a74-49d0-880d-edb937efa4bc")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/step_models/P0915N-FC15AR50K.stp"
-			(offset
-				(xyz 2.5 7.5 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
@@ -4492,28 +4448,6 @@
 			(pintype "passive")
 			(uuid "ad79e77b-7f93-41bc-94b8-a0ab952d87e4")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/step_models/P0915N-FC15AR50K.stp"
-			(offset
-				(xyz 2.5 7.5 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
@@ -4522,7 +4456,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "DA1"
-			(at 2.54 -4.27 270)
+			(at 2.54 -4.27 -90)
 			(layer "F.SilkS")
 			(uuid "697bc95f-4dad-4e2b-a1e7-0b4001a13694")
 			(effects
@@ -4533,7 +4467,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at -1.92 -5.5 270)
+			(at -1.92 -5.5 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16d69182-f5ae-4320-90dc-eecd3073b6ec")
@@ -4766,7 +4700,7 @@
 			(uuid "015df5bd-35ce-4689-8f52-3e7ea9583656")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 270)
+			(at 2.54 -4.27 -90)
 			(layer "F.Fab")
 			(uuid "977a0dad-1bc0-42ef-a140-3b0bdc955365")
 			(effects
@@ -5506,28 +5440,6 @@
 			(net 2 "+2V5")
 			(pintype "passive")
 			(uuid "2948985e-12bb-49e3-9ad5-7d864ffee42e")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/step_models/P0915N-FC15AR50K.stp"
-			(offset
-				(xyz 2.5 7.5 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
@@ -6387,7 +6299,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at -2.5 4.5 360)
+			(at -2.5 4.5 0)
 			(layer "B.SilkS")
 			(uuid "7bc934fd-bcb3-48ba-8c79-c2da4f06f439")
 			(effects
@@ -6399,7 +6311,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 1.107349 -1.808 360)
+			(at 1.107349 -1.808 0)
 			(layer "B.Fab")
 			(uuid "70ca4425-95ae-4c6d-8059-e8c8f998abb3")
 			(effects
@@ -8078,7 +7990,7 @@
 			(uuid "0d9b59e0-ac4e-40bc-afe6-74feda75f133")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "B.Fab")
 			(uuid "01d9b1b0-ef01-45f7-bd05-e57456d5d13e")
 			(effects
@@ -8128,7 +8040,7 @@
 		(descr "Diode, 5KPW series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
 		(tags "Diode 5KPW series Axial Horizontal pin pitch 12.7mm  length 9mm diameter 8mm")
 		(property "Reference" "VD1"
-			(at 5.429775 5.4 270)
+			(at 5.429775 5.4 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "3b4135d6-f546-4be3-b273-55fb4e321b63")
@@ -8141,7 +8053,7 @@
 			)
 		)
 		(property "Value" "VD"
-			(at 6.35 0 270)
+			(at 6.35 0 -90)
 			(layer "B.Fab")
 			(uuid "11ddf4cf-e30c-4dd8-87b6-fab648f261e4")
 			(effects
@@ -8417,7 +8329,7 @@
 			(uuid "8074fa0b-bcc3-42b6-8a43-625ff1513c27")
 		)
 		(fp_text user "K"
-			(at 0 2.6 270)
+			(at 0 2.6 -90)
 			(layer "B.SilkS")
 			(uuid "f55b0728-5f8e-4e4c-b152-d1ac11d94472")
 			(effects
@@ -8429,7 +8341,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 2.6 270)
+			(at 0 2.6 -90)
 			(layer "B.Fab")
 			(uuid "182d27a4-0c7f-41e4-9013-ba00d13f43ec")
 			(effects
@@ -8441,7 +8353,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.025 0 270)
+			(at 7.025 0 -90)
 			(layer "B.Fab")
 			(uuid "7c8ed6af-75c1-4544-95fe-f47ac5358b2e")
 			(effects
@@ -8493,7 +8405,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at -2.032 4.064 270)
+			(at -2.032 4.064 -90)
 			(layer "B.SilkS")
 			(uuid "0521eaa2-e47f-48d3-b3ce-4efdc09fa844")
 			(effects
@@ -8505,7 +8417,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 0 -2 270)
+			(at 0 -2 -90)
 			(layer "B.Fab")
 			(uuid "5caf5bc1-5d28-422d-bb3d-c7f2cb13ceaf")
 			(effects
@@ -10184,7 +10096,7 @@
 			(uuid "277c0b95-734b-460a-9782-55db610ab20c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 270)
+			(at 1.75 0 -90)
 			(layer "B.Fab")
 			(uuid "067bd603-1619-4441-815c-5ad4e7e4f9f6")
 			(effects
@@ -10234,7 +10146,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at -3.5 3.5 270)
+			(at -3.5 3.5 -90)
 			(layer "B.SilkS")
 			(uuid "3b2ea7f8-a0aa-4e34-9691-aaa533f44084")
 			(effects
@@ -10246,7 +10158,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 0 -2.5 270)
+			(at 0 -2.5 -90)
 			(layer "B.Fab")
 			(uuid "d2805c87-e9d1-4695-bf8c-c6475eaeb9a3")
 			(effects
@@ -11925,7 +11837,7 @@
 			(uuid "6e74c432-1d3b-4c48-ad7f-1b6e9601b89d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "B.Fab")
 			(uuid "d95f3c74-35c6-4e11-8f37-6a50786020cb")
 			(effects
@@ -11975,7 +11887,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 4.999775 0.2 360)
+			(at 4.999775 0.2 0)
 			(layer "B.SilkS")
 			(uuid "87828c83-0fd3-49a9-9040-5cfae51a2961")
 			(effects
@@ -11987,7 +11899,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 2.41 -0.072 360)
+			(at 2.41 -0.072 0)
 			(layer "B.Fab")
 			(uuid "284f4685-839e-418c-86db-5a15f54dee18")
 			(effects
@@ -12203,7 +12115,7 @@
 			(uuid "d48f17cf-5407-4dc1-a966-db5237f09e06")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "b67adbf4-010e-4324-89a8-3629006bc331")
 			(effects
@@ -12404,7 +12316,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.999775 -0.2 360)
+			(at 3.999775 -0.2 0)
 			(layer "B.SilkS")
 			(uuid "9c6d5d5d-0cd1-4c1e-aa94-4095bb0c11c7")
 			(effects
@@ -12416,7 +12328,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 3.81 -2.37 360)
+			(at 3.81 -2.37 0)
 			(layer "B.Fab")
 			(uuid "339c75fb-209e-4d96-b614-e7001c87f052")
 			(effects
@@ -12632,7 +12544,7 @@
 			(uuid "954c4400-9b7c-41e5-967a-940823856569")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "97545f70-8e56-46a3-a7d0-5a6025557626")
 			(effects
@@ -12682,7 +12594,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
-			(at 3.81 -0.05 360)
+			(at 3.81 -0.05 0)
 			(layer "B.SilkS")
 			(uuid "e25dc5f1-5cf3-43fe-a2c7-ced522e80b01")
 			(effects
@@ -12694,7 +12606,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 5.81 0 360)
+			(at 5.81 0 0)
 			(layer "B.Fab")
 			(uuid "7dc04e50-d844-465f-8e43-4efd52fcd5f9")
 			(effects
@@ -12910,7 +12822,7 @@
 			(uuid "845b2f6e-a640-4f36-953e-25cf28a836f1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "a9a51703-ceeb-4ca1-8ae4-16686464293b")
 			(effects
@@ -13613,28 +13525,6 @@
 			(pintype "passive")
 			(uuid "c2b4f382-8d07-4de3-b53f-b9ba2dbd395e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/step_models/RAPC10U.step"
-			(offset
-				(xyz 0 0 5.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 -180 90)
-			)
-		)
 	)
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 		(layer "B.Cu")
@@ -14072,7 +13962,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at -3.5 2 270)
+			(at -3.5 2 -90)
 			(layer "B.SilkS")
 			(uuid "53827df1-ae29-48d2-a7f5-ff895ef008b7")
 			(effects
@@ -15382,7 +15272,7 @@
 			(uuid "761dcb44-32b7-49a4-97a5-2167587c4bb0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 270)
+			(at 1 0 -90)
 			(layer "B.Fab")
 			(uuid "3682a2e9-a414-41df-94f6-bb1d7b345f9d")
 			(effects
@@ -15432,7 +15322,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R10"
-			(at 2.999775 -0.1 360)
+			(at 2.999775 -0.1 0)
 			(layer "B.SilkS")
 			(uuid "8673b4e6-ec51-424d-bcfe-c5bb19d10e94")
 			(effects
@@ -15444,7 +15334,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 5.62 0 360)
+			(at 5.62 0 0)
 			(layer "B.Fab")
 			(uuid "4ce2e65d-bb26-4c84-8fc2-cbb60fd57038")
 			(effects
@@ -15660,7 +15550,7 @@
 			(uuid "2d392395-3dc9-4cd5-81e9-31c704d554ca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "d1bcb71c-55d5-408e-9a2b-fdc522a62886")
 			(effects
@@ -15710,7 +15600,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 1.999775 0.65 360)
+			(at 1.999775 0.65 0)
 			(layer "B.SilkS")
 			(uuid "821d2ff8-be52-456f-bbac-d562e57281e5")
 			(effects
@@ -15722,7 +15612,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 5.31 0 360)
+			(at 5.31 0 0)
 			(layer "B.Fab")
 			(uuid "e9066967-815c-494e-910d-de6c218414a1")
 			(effects
@@ -15938,7 +15828,7 @@
 			(uuid "a8ad0297-8ffc-42e6-bead-ca98eced42c2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "011d5648-8af7-4d8b-bcfb-8290b694a046")
 			(effects
@@ -16352,7 +16242,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 4.499775 0.25 360)
+			(at 4.499775 0.25 0)
 			(layer "B.SilkS")
 			(uuid "094a4f65-569a-4f2c-877b-7e6d4c71f176")
 			(effects
@@ -16364,7 +16254,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 3.81 -2.37 360)
+			(at 3.81 -2.37 0)
 			(layer "B.Fab")
 			(uuid "f32b10b9-c331-4e03-8ef9-0a786a4fa513")
 			(effects
@@ -16580,7 +16470,7 @@
 			(uuid "04168406-5f1f-466b-be54-639be3a467f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "B.Fab")
 			(uuid "1036e89d-084b-46c6-b9f5-c5616818977a")
 			(effects
@@ -16630,7 +16520,7 @@
 		(descr "Diode, 5KPW series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
 		(tags "Diode 5KPW series Axial Horizontal pin pitch 12.7mm  length 9mm diameter 8mm")
 		(property "Reference" "VD2"
-			(at 5.929775 2.95 270)
+			(at 5.929775 2.95 -90)
 			(layer "B.SilkS")
 			(uuid "69bde1e8-46d4-4fa2-8ca6-2bbce70f30d7")
 			(effects
@@ -16642,7 +16532,7 @@
 			)
 		)
 		(property "Value" "VD"
-			(at 6.35 -1.524 270)
+			(at 6.35 -1.524 -90)
 			(layer "B.Fab")
 			(uuid "016bb410-1ae4-4294-8221-da9ecc4274f8")
 			(effects
@@ -16918,7 +16808,7 @@
 			(uuid "e5c2c596-a202-45bc-b5b3-43cefec3d7f1")
 		)
 		(fp_text user "K"
-			(at 0 2.6 270)
+			(at 0 2.6 -90)
 			(layer "B.SilkS")
 			(uuid "322a47fb-a742-4132-896c-6c18cce2da9d")
 			(effects
@@ -16930,7 +16820,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 2.6 270)
+			(at 0 2.6 -90)
 			(layer "B.Fab")
 			(uuid "462024ee-1928-41cf-b558-6306400b2d92")
 			(effects
@@ -16942,7 +16832,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.025 0 270)
+			(at 7.025 0 -90)
 			(layer "B.Fab")
 			(uuid "60a41935-1e87-4dc5-8e0b-90337873b0f0")
 			(effects
