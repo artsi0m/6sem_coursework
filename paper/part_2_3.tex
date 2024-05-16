@@ -22,7 +22,7 @@
 
 Это и было сделано. На тот момент подозрений о том, что это приведёт к каким-либо проблемам не было.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale = 0.20]{../img/scrot/Screenshot-2024-05-02-173914.png}
  \caption{Скриншот окна САПР \textit{KiCAD} в котором скрыты цепи относящиеся к питанию и компоненты распределены по группам.}
@@ -40,7 +40,7 @@
 
 В случае третьей платы были заменены некоторые посадочные места, на минитюаризированные аналоги, в описании которых при этом значился тот же самый шаг (\textit{pitch}) между отверстиями.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale = 0.20]{../img/scrot/Screenshot-2024-05-07-112847.png}
  \caption{Скриншот окон просмотрщика трёхмерных моделей САПР \textit{KiCAD}}
@@ -49,7 +49,7 @@
 
 Полученные варианты печатной платы необходимо экспортировать в \textit{SOLIDWORKS} для проведения дальньшей симуляции. И вот здесь возникли проблемы с получившийся моделью.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale = 0.4]{../img/scrot/Screenshot-2024-05-06-191242.png}
   \caption{Скриншот меню экспорта печатной платы в САПР \textit{KiCAD} }
@@ -61,7 +61,7 @@
 что при импорте полученного \textit{IDF} файла в \textit{SOLIDWORKS} будет автоматически использовано дополнение \textit{Circuit WORKS}, которое в случае импорта из \textit{Аltium Designer} упрощало модель таким образом, что вместо точных трехмерных моделей компонентов получались схожие, но значительно упрощенные трёхмерные геометрические фигуры.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale=0.2]{../img/scrot/Screenshot-2024-05-06-175849.png}
   \caption{Скриншот импортированного IDF печатной платы в САПР \textit{SOLIDWORKS}}
@@ -73,7 +73,7 @@
 
 Однако совсем не хотелось терять проделанную работу, поэтому было установлено расширение для \textit{Altium Designer} под названием \textit{KiCAD Importer}, которое предоставляло мастер импорта проектов из \textit{KiCAD}.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale=0.2]{../img/scrot/Screenshot-2024-05-08-110214.png}
   \caption{Скриншот трёхмерной модели имопрированной из \textit{KiCAD} печатной платы в \textit{Altium Designer}}
@@ -84,7 +84,7 @@
 
 После этого модели были экспортированы из \textit{Altium} в формате \textit{IDF}. Затем был осуществлен импорт этих моделей в \textit{SOLIDWORKS}. В отличие от моделей получившихся при предыдущей попытке экспорта теперь была сохранена геометрия платы и остались контуры (\textit{Sketch}) от элементов расположенных на ней. В последствии инструментом \textit{Extrude} на вкладке \textit{Analysis Prepartion} было осуществлено выдавливание фигур, схожих по объёму с трехмерным моделями печатных плат.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale=0.3]{../img/scrot/Screenshot-2024-05-08-132748.png}
   \caption{Скриншот только импортированной в \textit{SOLIDWORKS} печатной платы в формате IDF из \textit{Altium Designer}. Видны контуры посадочных мест.}
